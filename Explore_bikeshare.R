@@ -36,7 +36,7 @@ ggplot(aes(x = city, y = Trip.Duration/60), data = df) +
 df$month <- lubridate::month(as.Date(df$Start.Time),label = T,abbr = T) 
 # The timestamp in Washington isn't stored as date, 
 # hence the warning at the joins. Using "as.Date" as solution for this problem. The month-function pulls only the month from 
-# the timestamp.
+# the timestamp. it wworks.
 table(df$month)
 
 
@@ -54,7 +54,7 @@ ggplot(aes(x = month), data = df) +
              
              
 levels(ny$Gender)[levels(ny$Gender)==""]<-NA
- # NA was blank space in the original variable "Gender"
+ # NA was blank space in the original variable "Gender", so it is easier. 
              
 ggplot(aes(x = Gender), data = ny) +
   geom_bar(na.rm = TRUE, colour = "black", fill = "purple4") +
@@ -64,3 +64,5 @@ ggplot(aes(x = Gender), data = ny) +
   theme_bw()
 
 system('python -m nbconvert Explore_bikeshare_data.ipynb')
+
+#Submission date: July 2021#
