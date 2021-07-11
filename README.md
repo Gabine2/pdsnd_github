@@ -10,13 +10,13 @@ Explore Bikeshare Data with R.
 This Project is simulating a realistic workflow to refactor the previous BikeShare project. In the BikeShare project R was used to explore data related to bike share systems for three major cities in the United States.
 
 ### Files used
-#Data
+# Data
 ```
 washington.csv
 new_york_city.csv
 chicago.csv
 ```
-#Submitted R-Code
+# Submitted R-Code
 ```
 Explore_bikeshare.R
 ```
