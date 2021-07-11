@@ -1,17 +1,18 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
+### Nanodegree Programming for Data Science with R
+Project 3 - Git and Github
 ### Date created
-Include the date you created this project and README file.
+2021/07/11
 
 ### Project Title
-Replace the Project Title
+Explore Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This Project is simulating a realistic workflow to refactor the previous BikeShare project. In the BikeShare project R was used to explore data related to bike share systems for three major cities in the United States.
 
 ### Files used
-Include the files used
+washington.csv
+new_york_city.csv
+chicago.csv
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
 
