@@ -1,4 +1,6 @@
 #Project 2
+#Date: July 2021
+#Thanks to SteSei
 
 library(dplyr)
 library(ggplot2)
